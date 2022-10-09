@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 20vh;
+    padding: 50px;
+}
+.logo img{
+    display: flex;
+    width: 300px;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url('image/fond.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meta_bird{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+.meta_bird img{
+    width: 700px;
+}
+
+.titre_1{
+    display: flex;
+    justify-content: center;
+}
+
+.presentation{
+    display: flex;
+    justify-content: center;
+}
+
+.titre_2{
+    display: flex;
+    margin-left: 1%;
+}
+
+.explication_1{
+    display: flex;
+    justify-content: center;
+}
+.explication_1 p{
+    display: flex;
+    margin: 1%;
+    
+}
+.explication_1 img{
+    display: flex;
+    margin-right: 2%;
+}
+
+.titre_3{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+.explication_2{
+    display: flex;
+    justify-content: center;
+}
+.explication_2 p{
+    display: flex;
+    margin: 1%;
+}
+.explication_2 img{
+    display: flex;
+    width: 650px;
+    margin-left: 2%;
+}
+.titre_4{
+    display: flex;
+    margin-top: 1%;
+}
+.caratech{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.image_caratech{
+    display: flex;
+    justify-content: center;
+}
+
+.titre_5{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.conclusion{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.conclusion img{
+    display: flex;
+    width: 600px;
+}
+
+.conclusion p{
+    display: flex;
+    margin-top: 10%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        flex-direction: column;
+    }
+   nav{
+    flex-direction: column;
+   } 
+   nav ul{
+    flex-direction: column;
+   }
+   .meta_bird img{
+    max-width: 300px;
+   }
+   .explication_1 img{
+    max-width: 300px;
+   }
+   .explication_2 img{
+    max-width: 300px;
+   }
+   .image_caratech img{
+    max-width: 300px;
+   }
+   .conclusion img{
+    max-width: 300px;
+   }
+}
